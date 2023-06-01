@@ -1,18 +1,67 @@
 /* BODY */
+
 body {
-background-color: #F9FBE7;
+    margin: 0;
+}
+    
+    
+    /* MAIN SECTION */
+    
+    #main-section {
+        background-image: url("pics/background-img.jpg");
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+    }
+
+
+    .container-fluid {
+        padding: 0 5%;
+    }
+
+    .nav-item {
+        padding: 0 20px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .nav-link:hover {
+        color: #F9F5F6;
+    }
+
+    .main-section-title {
+        font-weight: 800;
+        font-size: 4rem;
+        color: #F9F5F6;
+        width: 50%;
+        margin: 10% auto;
+        text-align: center;
+    
+    } 
+
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+    color: #F9F5F6;
+}
+
+/* To make the dropdown menu appear on hover */
+.dropdown:hover .dropdown-menu {
+     display: block;
+ }
+
+ /* Without this the dropdown menu on hover would be sticky */
+ .dropdown .dropdown-toggle:active {
+        pointer-events: none;
 }
 
 
-/* MAIN SECTION */
-
-
-
-
-
-/* MIDDLE SECTION */
-
-
-
-
-/* FOOTER */
+    
+    /* MIDDLE SECTION */
+    
+    
+    
+    
+    /* FOOTER */
+    
