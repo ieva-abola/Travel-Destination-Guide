@@ -376,3 +376,7 @@ footer div {
 .row.tour-row.last{
     padding-bottom: 0;
 }
+
+.card-body{
+    text-align: justify;
+}
