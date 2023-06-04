@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure tours</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- MAIN SECTION -->
+
+    <div class="container-fluid adventure-header">
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+                <img src="pics/logo.png" alt="logo-img" height="128">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Destinations</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="">Sightseeing tours</a></li>
+                            <li><a class="dropdown-item" href="">Adventure tours</a></li>
+                            <li><a class="dropdown-item" href="">Leisure tours</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link log-in-btn" href="#">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="adventure-header-title">Adventure tours</h1>
+    </div>
+
+    <!-- MIDDLE PART -->
+
+    <div class="container-fluid tour">
+
+        <div class="row title-row">
+            <div class="title col-12">
+                <h3>Adventure tours</h3>
+            </div>
+        </div>
+
+        <div class=" row tour-row">
+            <div class="tour-type">
+                Water adventures
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/70/0f/0b.jpg"
+                            alt="kayaking" class="img-responsive"></a>
+                    <p>Kayaking in lagoon (Iceland)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                        These sit-on-top kayaks are extremely easy to steer, and no previous kayaking experience is
+                        required. Once on the kayak and you push off into the lagoon, you'll be immediately immersed
+                        into a world of iceberg-filled calm waters, with breathtaking views of the Sólheimajökull
+                        Glacier, which is only able to be seen while on water. After a few hours of gliding along the
+                        stillness of the lagoon, you will head back to shore having collected some unforgettable
+                        memories.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://media.tacdn.com/media/attractions-splice-spp-674x446/10/7b/bf/67.jpg"
+                            alt="rafting" class="img-responsive"></a>
+                    <p>Rafting in Bovec (Slovenia)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                        Cruise down the crystal clear waters of the Soca River on this white-water rafting tour from
+                        Bovec. Change into your rafting equipment and listen to a safety briefing given by your
+                        certified guide, who will tell you everything you need to know. Embrace the rush of paddling
+                        over the rapids and watch it back later with a video of the experience.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://www.lifecanyoning.com/wp-content/uploads/2014/12/canyoning_bovec_slovenia_1-1030x682.jpg"
+                            alt="athens" class="img-responsive"></a>
+                    <p>Canyoning waterfalls (Slovenia)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                    <div class="card card-body">
+                        Discover the fun of canyoning in the clear waters of Savinja River in Upper Savinja Valley.
+                        During canyoning in Slovenia, you will get to know Cuc Canyon and its stunning waterfalls, which
+                        are located on the route of the tour.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6a/f2/8a.jpg"
+                            alt="snorkeling" class="img-responsive"></a>
+                    <p>Snorkeling with dolphins (Portugal)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample4">
+                    <div class="card card-body">
+                        Board your boat and head towards the area with a 99% chance of seeing dolphins or whales. Get
+                        the opportunity to be in the water with one of the two species of dolphins Madeira Island
+                        regulations allow: common dolphins or spotted dolphins. As you enter the water, remain safely
+                        connected to the boat at all times.
+                        Get comfortable in the water and approach the dolphins with the support of your guide. Once
+                        you're ready, get in the water with the dolphins in front, below, and next to you and admire
+                        these beautiful mammals up close, and in their natural habitat.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" row tour-row">
+            <div class="tour-type">
+                Hiking tours
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://trekhunt.com/_next/image/?url=https%3A%2F%2Fs3.eu-west-3.amazonaws.com%2Fimages.trekhunt.com%2F2022%2F05%2Fkrivan-high-tatras.webp&w=3840&q=75"
+                            alt="hiking-tatras" class="img-responsive"></a>
+                    <p>Hiking in Tatras (Slovakia)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample5">
+                    <div class="card card-body">
+                        Tatra Mountains uncover 85 mountain lakes, of which Velke Hincovo pleso (20 ha, 53 m deep) is
+                        the largest and the deepest. The Tatra region is a frequent target of visitors worldwide for its
+                        unique beauty and many possibilities for hiking. The most popular hiking tours are hut-to-hut
+                        style but day hikes from one hotel are equally adventurous while offering more flexibility.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample6" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://www.fjordtours.com/media/9069/trolltunga-active_guided-hike_liggende-format-i.jpg"
+                            alt="trolltunga" class="img-responsive"></a>
+                    <p>Trolltunga hike (Norway)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample6">
+                    <div class="card card-body">
+                        Trolltunga is one of Norway's most famous "icons" and is located 1100 meters above Lake
+                        Ringedalsvatnet. On the hike to the top, you will be surrounded by stunning nature, safely led
+                        by your experienced and knowledgeable guide. Safely at the top, you are rewarded with an
+                        unbeatable view of the Ringedal lake and the Folgefonna glacier. Plus, standing on the edge
+                        should add some butterflies to your tummy. It is not without reason that Trolltunga is one of
+                        the most photographed icons in the world and that spectacular photos from the top can be found
+                        on countless Instagram accounts.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample7" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/09/The-Kamnitz-Gorge-in-Saxon-switzerland-national-park.jpg"
+                            alt="saxon" class="img-responsive"></a>
+                    <p>Saxon National Park (Germany)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample7">
+                    <div class="card card-body">
+                        Saxon Switzerland National Park is a magnificent nature reserve that suffers from mistaken
+                        identity. You'd be forgiven if you thought it was in Switzerland, but you'll actually find this
+                        forested, rocky wonderland in eastern Germany on the border with the Czech Republic. Saxon
+                        Switzerland got its name from two Swiss men who explored the area in the 18th century and were
+                        reminded of their home country. Although established in 1990, the park's 36 square miles of land
+                        still feel relatively undiscovered by tourists — which is just one of many reasons why Saxon
+                        Switzerland is a hiker' dream.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample8" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://www.madetoexplore.ca/wp-content/uploads/2022/10/hikes-in-switzerland-4-1536x1024.jpg"
+                            alt="schafler-ridge" class="img-responsive"></a>
+                    <p>Hiking along Schäfler Ridge (Switzerland)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample8">
+                    <div class="card card-body">
+                        he Schäfler ridge hike is not just one of the best routes in the Appenzell region, but in all of
+                        Switzerland. Its peak sits at an altitude of 1925 meters, and whilst it's not the tallest peak
+                        in the area, it's one of the most popular due to the demanding snake-like trail that cascades
+                        around the rugged mountain. There are many routes to the summit, however, the route I'm going to
+                        cover is, in my opinion, one of the best. This is because it not only includes Schäfler, but
+                        also Ebenalp and Seealpsee, which are two areas of this mountain range that are also worth
+                        visiting.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" row tour-row last">
+            <div class="tour-type">
+                Aerial entertainment
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample9" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://assets.verticalmag.com/wp-content/uploads/2017/07/A05Z4722.jpg"
+                            alt="swiss-alps" class="img-responsive"></a>
+                    <p>Swiss Alps helicopter tour (Switzerland)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample9">
+                    <div class="card card-body">
+                        It can be tricky to appreciate the sheer scale of the Swiss Alps on a ground tour. Take the
+                        skies on helicopter tour and discover sweeping panoramas of the Eiger, Monch, and Jungfrau peaks
+                        while learning more about the region from the professional pilot. Ideal for a honeymoon or small
+                        family group, this intimate sightseeing trip makes your Alpine adventure all the more memorable.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample10" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://media.tacdn.com/media/attractions-splice-spp-674x446/07/01/8c/a1.jpg"
+                            alt="airballoon" class="img-responsive"></a>
+                    <p>Rioja Wine from above (Spain)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample10">
+                    <div class="card card-body">
+                        xperience Spain's Rioja Wine region from above on this hot air balloon adventure. After meeting
+                        up with a guide at a designated location, enjoy convenient transportation to the departure
+                        point. Then, lift off and marvel at vineyards, mountains, and the Ebro River. Enjoy a
+                        complimentary toast with a locally produced Cava, a flight diploma, and, after landing, a
+                        delicious, authentic breakfast.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample11" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://media.tacdn.com/media/attractions-splice-spp-674x446/10/45/4d/a7.jpg"
+                            alt="skydiving" class="img-responsive"></a>
+                    <p>Tandem skydiving in Prague (Czech)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample11">
+                    <div class="card card-body">
+                        Take to the Czech skies on a tandem skydiving excursion from Prague. After a detailed briefing,
+                        put on your provided goggles, harness, and suit. Once the plane reaches 15,000 feet, it’s time
+                        to jump. Feel secure attached to your guide and enjoy a 60 second free fall, followed by a five
+                        to seven minute parachute ride. Leave with a certificate and t-shirt to commemorate your
+                        adrenaline fueled adventure.
+
+                        Read more about Experience Best Prague Tandem Skydiving -
+                        https://www.viator.com/tours/Pilsen/BEST-TANDEM-SKYDIVING-IN-PRAGUE/d31166-62444P1?mcid=56757
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample12" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://lh3.googleusercontent.com/p/AF1QipMvaj6qHP9oJ42WSY-P4Nixqe3peplqNs2J-YNl=s1360-w1360-h1020"
+                            alt="bungee-jumps" class="img-responsive"></a>
+                    <p>Artuby bridge bungee jumping (France)</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample12">
+                    <div class="card card-body">
+                        the best bungee jumping experience in France thanks to the set up that launches you from the
+                        Artuby Bridge in Marseille. You have the opportunity to jump from a height of 597 feet and you
+                        would need to pay $158 for one jump. It is definitely expensive since the country has an average
+                        cost of around $115 but this spot is actually the fifth highest bungee option from a bridge, 7th
+                        overall. Over 80,000 jumps were overseen by Latitude Challenge in the past so safety is
+                        guaranteed.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="choose">
+        <b> Choose your destination:</b> <a class="choose-tour" href="leisure.html">leisure tours</a>, <a
+            class="choose-tour" href="sightseing.html">sightseeing tours</a>.
+    </div>
+
+    <!-- FOOTER SECTION WITH CONTACTS -->
+
+    <footer>
+        <i class="fab fa-facebook-square fa-lg"></i>
+        <i class="fab fa-instagram-square fa-lg"></i>
+        <i class="fab fa-twitter-square fa-lg"></i>
+        <div>Email: SGT-tours@sgt.com</div>
+        <div>Address: 742 Evergreen Terrace, Springfield</div>
+        <div>Phone No: +370 000 0000</div>
+        <div class="copyright">&#xa9; 2023 Designed and built with passion by Ieva and Vaida</div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

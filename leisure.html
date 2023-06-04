@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure tours</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- MAIN SECTION -->
+
+    <div class="container-fluid adventure-header">
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+                <img src="pics/logo.png" alt="logo-img" height="128">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Destinations</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="">Sightseeing tours</a></li>
+                            <li><a class="dropdown-item" href="">Adventure tours</a></li>
+                            <li><a class="dropdown-item" href="">Leisure tours</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link log-in-btn" href="#">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="adventure-header-title">Adventure tours</h1>
+    </div>
+
+    <!-- MIDDLE PART -->
+
+    <div class="container-fluid tour">
+
+        <div class="row title-row">
+            <div class="title col-12">
+                <h3>Leisure trips</h3>
+            </div>
+        </div>
+
+        <div class=" row tour-row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://d3dqioy2sca31t.cloudfront.net/Projects/cms/production/000/026/307/medium/1038581443b396d9c4c120d868075f15/greece-santorini-cruise-090519-ch.jpg"
+                            alt="mediterranean cruise" class="img-responsive"></a>
+                    <p>Mediterranean cruise</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                        Once home to ancient civilizations and famous philosophers, the Mediterranean continues to
+                        define tradition. Departing from Rome, Athens or Barcelona, sail into Marseille and bask in the
+                        beauty of Provence's lavender fields. Explore Pompeii's ruins while visiting Naples. Or taste
+                        cuisine as rich as the culture with fresh vegetables in Santorini and hand-thrown pizzas in
+                        Naples.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://images.r.cruisecritic.com/slideshows/2016/q3/ss-norwegian-fjords-hero.jpg"
+                            alt="norway-cruise" class="img-responsive"></a>
+                    <p>Norway and Iceland cruise</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                        Natural attractions abound in Norway and Iceland, your gateway to dazzling fjords, cascading
+                        waterfalls and black-sand beaches. Navigate through Geiranger's winding waterways to Seven
+                        Sisters Waterfall where currents rush 800 feet down the rugged cliffside. Or take a dip in the
+                        rejuvenating waters of the Blue Lagoon in Reykjavik. Admire Mother Nature's masterpieces on some
+                        of best European cruises.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://www.happy.rentals/admin/uploads/632adb3411680Villefranche-sur-Mer-coastal-view-.jpg"
+                            alt="athens" class="img-responsive"></a>
+                    <p>French Riviera vacation</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                    <div class="card card-body">
+                        The French Riviera, or Côte d'Azur, is one of Europe's most popular travel destinations thanks
+                        to its sunny weather
+                        and resort atmosphere. In this planning guide, we'll offer vacation tips & tricks, things to do,
+                        when to visit, and
+                        which cities in Southern France are worth day trips.
+                        The French Riviera stretches along the coast from Menton to Théoule sur Mer and up into the
+                        Southern Alps, with
+                        several cities including Nice, Cannes, Antibes, and Vence, plus 14 natural parks, Roman ruins,
+                        medieval villages,
+                        and the sovereign microstate of Monaco.
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://www.travelinglifestyle.net/wp-content/uploads/2022/04/Best-Beaches-in-Portugal.jpg"
+                            alt="porto" class="img-responsive"></a>
+                    <p>Leisure in Porto</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample4">
+                    <div class="card card-body">
+                        Porto has long been a hot destination for wine lovers - it's the go-to place to find the best of
+                        that sweet, tasty port wine. But this city by the sea has more to offer than vinho. Porto (or
+                        Oporto, as it's sometimes called) is an attractive European minimetropolis on Portugal's
+                        northwestern coast where visitors can get their fill of culture and the outdoors. Travelers can
+                        visit the city's wealth of museums, admire its varied architecture, relax in its verdant parks
+                        and, of course, hit the beach.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" row tour-row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://a0.muscache.com/im/pictures/e7db65de-98df-4b3a-a047-62820cbaeffc.jpg"
+                            alt="corfu" class="img-responsive"></a>
+                    <p>Luxury hollidays in Corfu</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample5">
+                    <div class="card card-body">
+                        The greenest of Greece's islands, home to rolling hills covered in pine forests and millions of
+                        olive trees,
+                        some over 400 years old, it's not difficult to see how Corfu earned its nickname of the 'Emerald
+                        Isle'. Of
+                        course, joining this verdant interior is a glorious coastline, home to beautiful golden beaches,
+                        crystal-clear
+                        waters and unspoilt islands nearby.
+                        The allure of Corfu doesn't stop at its natural beauty though, the island boasting a fascinating
+                        history and
+                        countless cultural sights. Due to its geographical location between Albania, Greece and Italy,
+                        it has long been
+                        a site of invasion, causing a blend of culture, architecture and cuisine that promises plenty to
+                        explore. As
+                        such, an Italianate feel dominates the island much more than a Greek one, perhaps the most
+                        shining example of
+                        which is charming Corfu Town, a UNESCO World Heritage Site that nestles between two ancient
+                        Venetian fortresses.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="tour-collapse">
+                <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample6" role="button"
+                    aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                        src="https://elitevoyage.com/wp-content/uploads/2021/12/Bordeaux_02.jpg" alt="bordeaux"
+                        class="img-responsive"></a>
+                <p>Vacations for wine lovers</p>
+            </div>
+            <div class="collapse multi-collapse" id="multiCollapseExample6">
+                <div class="card card-body">
+                    Bordeaux has always been a dynamic, cosmopolitan city and never ceases to reveal exciting, new
+                    facets of its character.
+                    The city of Bordeaux's inscription as a UNESCO World Heritage Site in 2007 and its bold modernism
+                    have made it a key
+                    destination for everyone interested in French culture, lifestyle... and wine!
+                    Centre of a legendary winegrowing region, this vibrant and sophisticated city is a top gourmet and
+                    culture destination.
+                    Synonymous with fine wines, Bordeaux is one of France's most elegant cities. This UNESCO World
+                    Heritage site is
+                    ultraresplendent after its recent makeover.
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="tour-collapse">
+                <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample7" role="button"
+                    aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                        src="https://d36tnp772eyphs.cloudfront.net/blogs/1/2019/09/The-Kamnitz-Gorge-in-Saxon-switzerland-national-park.jpg"
+                        alt="saxon" class="img-responsive"></a>
+                <p>Saxon National Park (Germany)</p>
+            </div>
+            <div class="collapse multi-collapse" id="multiCollapseExample7">
+                <div class="card card-body">
+                    Saxon Switzerland National Park is a magnificent nature reserve that suffers from mistaken
+                    identity. You'd be forgiven if you thought it was in Switzerland, but you'll actually find this
+                    forested, rocky wonderland in eastern Germany on the border with the Czech Republic. Saxon
+                    Switzerland got its name from two Swiss men who explored the area in the 18th century and were
+                    reminded of their home country. Although established in 1990, the park's 36 square miles of land
+                    still feel relatively undiscovered by tourists — which is just one of many reasons why Saxon
+                    Switzerland is a hiker' dream.
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="tour-collapse">
+                <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample8" role="button"
+                    aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                        src="https://www.madetoexplore.ca/wp-content/uploads/2022/10/hikes-in-switzerland-4-1536x1024.jpg"
+                        alt="schafler-ridge" class="img-responsive"></a>
+                <p>Hiking along Schäfler Ridge (Switzerland)</p>
+            </div>
+            <div class="collapse multi-collapse" id="multiCollapseExample8">
+                <div class="card card-body">
+                    he Schäfler ridge hike is not just one of the best routes in the Appenzell region, but in all of
+                    Switzerland. Its peak sits at an altitude of 1925 meters, and whilst it's not the tallest peak
+                    in the area, it's one of the most popular due to the demanding snake-like trail that cascades
+                    around the rugged mountain. There are many routes to the summit, however, the route I'm going to
+                    cover is, in my opinion, one of the best. This is because it not only includes Schäfler, but
+                    also Ebenalp and Seealpsee, which are two areas of this mountain range that are also worth
+                    visiting.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="choose">
+        <b> Choose your destination:</b> <a class="choose-tour" href="leisure.html">leisure tours</a>, <a
+            class="choose-tour" href="sightseing.html">sightseeing tours</a>.
+    </div>
+
+    <!-- FOOTER SECTION WITH CONTACTS -->
+
+    <footer>
+        <i class="fab fa-facebook-square fa-lg"></i>
+        <i class="fab fa-instagram-square fa-lg"></i>
+        <i class="fab fa-twitter-square fa-lg"></i>
+        <div>Email: SGT-tours@sgt.com</div>
+        <div>Address: 742 Evergreen Terrace, Springfield</div>
+        <div>Phone No: +370 000 0000</div>
+        <div class="copyright">&#xa9; 2023 Designed and built with passion by Ieva and Vaida</div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
