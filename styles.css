@@ -107,7 +107,7 @@ body {
 
 /* MIDDLE SECTION */
 
-.container-fluid.middle-section {
+.middle-section {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.9782084569732937) 83%, rgba(236, 234, 234, 1) 95%);
 
 }
@@ -165,8 +165,9 @@ body {
 
 .choose-tour:hover {
     text-shadow: 2px 2px 4px grey;
-    ;
-.container-fluid{
+
+
+.middle-section{
 background: linear-gradient(0deg, rgba(255,255,255,0.9782084569732937) 83%, rgba(236,234,234,1) 95%);
     
 }
@@ -253,6 +254,16 @@ footer div {
 
 }
 
+.container-fluid.adventure-header, .container-fluid.leisure-header, .container-fluid.sightseeing-header {
+    background-image: url("images/blog-header-img-min.jpg");
+    height: 470px !important;
+    background-size: cover;
+    background-position-y: 45%;
+    position: relative;
+    padding: 0 5%;
+
+}
+
 .blog-header-title {
     font-weight: 800;
     font-size: 4rem;
@@ -312,4 +323,88 @@ footer div {
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     margin-top: 3%;
+}
+
+/* SIGHTSEING STYLES */
+.tour{
+padding-top: 5%;
+}
+
+.tour-row{
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px){
+.tour-collapse{
+padding-bottom: 100px;
+height: 480px;
+}
+}
+
+.tour-collapse img{
+display: block;
+margin: auto;
+height: 100%;
+width: 100%;
+object-fit: contain;
+opacity: 0.85;
+box-shadow: rgba(50, 50, 93, 0.4) 0px 30px 60px -12px, rgba(0, 0, 0, 0.4) 0px 18px 36px -18px;
+}
+
+.tour-collapse p{
+text-align: center;
+font-size: 30px;
+font-family: 'Caveat', cursive;
+bottom: 0;
+opacity: 1;
+}
+
+.tour-collapse img:hover{
+height: 102%;
+object-fit: contain;
+opacity: 1;
+box-shadow: none;
+}
+
+.tour-collapse img:active{
+margin: auto;
+height: 95%;
+width: 95%;
+object-fit: contain;
+opacity: 1;
+}
+
+.row.tour-row.last{
+padding-bottom: 0;
+}
+
+.card-body{
+text-align: justify;
+}
+
+/* ADVENTURE STYLES */
+
+.tour-type{
+font-size: 22px;
+margin-bottom: 15px;
+text-decoration: underline;
+}
+
+.adventure-header {
+background-image: url("images/blog-header-img-min.jpg");
+height: 50% !important;
+background-size: cover;
+background-position-y: 45%;
+position: relative;
+padding: 0 5%;
+
+}
+
+.blog-header-title {
+font-weight: 800;
+font-size: 4rem;
+color: #F9F5F6;
+position: absolute;
+bottom: 30px;
+
 }
