@@ -1,0 +1,211 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Blog</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+  <!-- NAVIGATION BAR -->
+
+
+  <div class="container-fluid blog-header">
+
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">
+          <img src="images/logo-min.png" alt="logo-img" height="128">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                      aria-expanded="false">Destinations</a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item" href="">Sightseeing tours</a></li>
+                      <li><a class="dropdown-item" href="">Adventure tours</a></li>
+                      <li><a class="dropdown-item" href="">Leisure tours</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#footer-section">Contact us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link btn blog-btn" href="#" role="button" data-bs-toggle="modal" data-bs-target="#modalSignin">Log in</a>
+              </li>
+
+              <div class="modal modal-sheet bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content rounded-4 shadow">
+                      <div class="modal-header p-5 pb-4 border-bottom-0">
+                        <h1 class="fw-bold mb-0 fs-2">Log in</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                
+                      <div class="modal-body p-5 pt-0">
+                        <form class="">
+                          <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                          </div>
+                          <button class="w-100 mb-2 btn btn-lg rounded-3 blog-btn" type="submit">Log In</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+          </ul>
+      </div>
+  </nav>
+    <h1 class="blog-header-title">Blog</h1>
+  </div>
+
+
+    <!-- BLOG POSTS -->
+
+
+  <div class="container-fluid blog-posts-div">
+
+    <div class="blog-row d-flex flex-column flex-lg-row">
+
+      <div class="d-flex flex-column blog-post lg">
+        <div class="blog-photo-div">
+          <img src="images/friends-travel-min.jpg" alt="women-near-lake-img">
+        </div>
+        <div class="blog-text">
+          <h3>Friendship Destinations: Exploring Dreamy Locations with Your Best Friends</h3>
+          <hr>
+          <p>Friendship Destinations is your passport to exploring enchanting locations around the globe with your closest companions. Join us as we venture to dreamy destinations that are perfect for creating lifelong memories and strengthening the bonds of friendship. From breathtaking natural landscapes to vibrant cityscapes, get ready to embark on extraordinary adventures that celebrate the joy of togetherness and the magic of friendship.</p>
+          <button class="btn blog-btn">READ MORE</button>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column blog-post sm">
+        <div class="blog-photo-div">
+          <img src="images/blog2-img-min.jpg" alt="travel-planing-img">
+        </div>
+        <div class="blog-text">
+          <h3>Travel Hacks: 10 Tips for Packing Light and Smart</h3>
+          <hr>
+          <p>Discover the ultimate travel hacks for packing light and smart, ensuring a hassle-free journey from start to finish. With these 10 expert tips, you'll learn how to maximize space, minimize weight, and streamline your packing process, leaving you more time and energy to enjoy your adventures.</p>
+          <button class="btn blog-btn">READ MORE</button>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="blog-row d-flex flex-column flex-lg-row">
+
+      <div class="d-flex flex-column blog-post sm">
+        <div class="blog-photo-div">
+          <img src="images/paris-min.jpg" alt="eiffel-tower-img">
+        </div>
+        <div class="blog-text">
+          <h3>Paris Unveiled: A Journey through the City of Lights</h3>
+          <hr>
+          <p>Embark on an enchanting journey through the City of Lights with "Paris Unveiled." Discover the timeless beauty of iconic landmarks, immerse yourself in the vibrant culture, and indulge in the culinary delights that make Paris a true haven for wanderers and romantics alike.</p>
+          <button class="btn blog-btn">READ MORE</button>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column blog-post lg">
+        <div class="blog-photo-div">
+          <img src="images/plane-min.jpg" alt="plane-img">
+        </div>
+        <div class="blog-text">
+          <h3>How to Score the Best Flight Deals: Insider Tips and Tricks</h3>
+          <hr>
+          <p>From navigating fare alerts to mastering the art of flexible travel dates, this blog will equip you with the knowledge to find unbeatable prices and make your travel dreams a reality.</p>
+          <button class="btn blog-btn">READ MORE</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="blog-row d-flex flex-column flex-lg-row">
+
+      <div class="d-flex flex-column blog-post lg">
+          <div class="blog-photo-div">
+              <img src="images/norway-min.jpg" alt="northern-light-img">
+          </div>
+          <div class="blog-text">
+            <h3>Northern Lights Odyssey: Witnessing Nature's Spectacular Show in Norway</h3>
+            <hr>
+            <p>Embark on a captivating Northern Lights odyssey in Norway, where you'll witness the awe-inspiring dance of colorful lights across the Arctic skies, creating a truly magical and unforgettable experience.</p>
+            <button class="btn blog-btn">READ MORE</button>  
+          </div>
+      </div>
+
+      <div class="d-flex flex-column blog-post sm">
+          <div class="blog-photo-div">
+              <img src="images/leisure-min.jpg" alt="leisure-trip-img">
+          </div>
+          <div class="blog-text">
+            <h3>Escape to Paradise: Unwinding on a Tropical Leisure Trip</h3>
+            <hr>
+            <p>Escape to paradise and unwind on a tropical leisure trip, where palm-fringed beaches, crystal-clear waters, and blissful relaxation await you.</p>
+            <button class="btn blog-btn">READ MORE</button>  
+          </div>
+      </div>
+      
+
+  </div>
+
+  </div>
+
+    <!-- FOOTER SECTION WITH CONTACTS -->
+    <section id="footer-section">
+      <footer>
+          <i class="fab fa-facebook-square fa-lg"></i>
+          <i class="fab fa-instagram-square fa-lg"></i>
+          <i class="fab fa-twitter-square fa-lg"></i>
+          <div>Email: SGT-tours@sgt.com</div>
+          <div>Address: 742 Evergreen Terrace, Springfield</div>
+          <div>Phone No: +370 000 0000</div>
+          <div class="copyright">&#xa9; 2023 Designed and built with passion by Ieva and Vaida</div>
+      </footer>
+  </section>
+
+</body>
+
+</html>
