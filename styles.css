@@ -7,7 +7,7 @@ body {
 
 /* MAIN SECTION */
 
-.container-fluid .header {
+.container-fluid.header {
     padding: 0 5%;
 }
 
@@ -326,6 +326,8 @@ footer div {
     background-size: cover;
     background-position-y: 40%;
     position: relative;
+    padding: 0 5%;
+
 }
 
 .blog-header-title {
@@ -343,8 +345,7 @@ footer div {
 
 .blog-row {
     gap: 2rem;
-    height: 800px;
-    flex: wrap;
+    margin-bottom: 2rem;
     }
 
 
@@ -360,11 +361,38 @@ footer div {
 
 }
 
-.blog-post-lg {
+.blog-posts {
+    background-color: #F6F1E9;
+}
+
+.blog-post {
+    background-color: white;
+}
+
+.blog-text {
+    padding: 30px;
+}
+
+.blog-text hr {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px 0 0 0;
+    width: 30%;
+    
+}
+
+
+.blog-post.lg {
     flex: 2;
 
 }
 
-.blog-post-sm {
+.blog-post.sm {
     flex: 1;
+}
+
+.blog-btn {
+    background-color: rgba(0, 0, 0, 0.3);
+    /* border-radius: 7%; */
+    color: white;
 }
