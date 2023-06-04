@@ -254,11 +254,31 @@ footer div {
 
 }
 
-.container-fluid.adventure-header, .container-fluid.leisure-header, .container-fluid.sightseeing-header {
-    background-image: url("images/blog-header-img-min.jpg");
+.container-fluid.adventure-header {
+    background-image: url("https://images.pexels.com/photos/910307/pexels-photo-910307.jpeg?auto=compress&cs=tinysrgb&w=1600");
     height: 470px !important;
     background-size: cover;
-    background-position-y: 45%;
+    background-position-y: 20%;
+    position: relative;
+    padding: 0 5%;
+
+}
+
+.container-fluid.leisure-header {
+    background-image: url("https://images.pexels.com/photos/3019893/pexels-photo-3019893.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    height: 470px !important;
+    background-size: cover;
+    background-position-y: 20%;
+    position: relative;
+    padding: 0 5%;
+
+}
+
+.container-fluid.sightseeing-header {
+    background-image: url("https://images.pexels.com/photos/7929677/pexels-photo-7929677.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    height: 470px !important;
+    background-size: cover;
+    background-position-y: 30%;
     position: relative;
     padding: 0 5%;
 
