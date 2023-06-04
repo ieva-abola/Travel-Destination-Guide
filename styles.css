@@ -4,12 +4,7 @@ body {
     margin: 0;
 }
 
-
 /* MAIN SECTION */
-
-.container-fluid .header {
-    padding: 0 5%;
-}
 
 #main-section {
     background-image: url("pics/background-img.jpg");
@@ -25,7 +20,6 @@ body {
     margin: 10% auto;
     text-align: center;
     position: relative;
-
 }
 
 @media (max-width: 991px) {
@@ -35,7 +29,6 @@ body {
         margin: 17% auto;
         width: 60%;
     }
-
 }
 
 @media (max-width: 576px) {
@@ -45,7 +38,6 @@ body {
         margin: 27% auto;
         width: 60%;
     }
-
 }
 
 
@@ -112,7 +104,7 @@ body {
 
 /* MIDDLE SECTION */
 
-.container-fluid .middle-section {
+.container-fluid.middle-section {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.9782084569732937) 83%, rgba(236, 234, 234, 1) 95%);
 
 }
@@ -153,21 +145,6 @@ body {
     opacity: 1;
 }
 
-.image-div img:hover {
-    height: 102%;
-    object-fit: contain;
-    opacity: 1;
-    box-shadow: none;
-}
-
-.image-div img:active {
-    margin: auto;
-    height: 95%;
-    width: 95%;
-    object-fit: contain;
-    opacity: 1;
-}
-
 .choose {
     color: #333333;
     font-size: 22px;
@@ -189,33 +166,6 @@ body {
 .container-fluid{
 background: linear-gradient(0deg, rgba(255,255,255,0.9782084569732937) 83%, rgba(236,234,234,1) 95%);
     
-}
-.title-row, .tour-row{
-    padding-bottom: 1vh;
-    padding-top: 10px;
-}
-
-.title{
-    color: rgb(0, 0, 0);
-    font-size: 3rem; 
-    /* text-shadow: 1px 1px 3px rgb(124, 123, 123), 0 0 25px rgb(165, 165, 165), 0 0 3px rgb(165, 165, 165); */
-}
-
-@media only screen and (max-width: 600px){
-    .image-div{
-    height: 380px;
-    background-color: rgb(255, 255, 255);
-}
-}
-
-
-.image-div img{
-    display: block;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    opacity: 0.85;
-    box-shadow: rgba(50, 50, 93, 0.4) 0px 30px 60px -12px, rgba(0, 0, 0, 0.4) 0px 18px 36px -18px;
 }
 
 .image-div p{
@@ -264,40 +214,6 @@ text-shadow: 2px 2px 4px grey;
 color: #333333;
 }
 
-.image-div img:hover{
-    height: 102%;
-    object-fit: contain;
-    opacity: 1;
-    box-shadow: none;
-}
-
-.image-div img:active{
-    margin: auto;
-    height: 95%;
-    width: 95%;
-    object-fit: contain;
-    opacity: 1;
-}
-
-.choose{
-    color: #333333;
-    font-size: 22px;
-    margin-top: 70px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.choose-tour{
-    text-decoration: none;
-    color: #333333;
-    font-style: italic;
-}
-
-.choose-tour:hover{
-text-shadow: 2px 2px 4px grey;;
-
-}
-
 /* FOOTER */
 
 footer {
@@ -318,17 +234,6 @@ footer div {
 }
 
 /* SIGHTSEING STYLES */
-
-#main-section-sightseing{
-    background-image: url("https://www.myglobalviewpoint.com/wp-content/uploads/2019/12/Best-Hidden-Gems-in-Europe-to-Visit-2020.jpg");
-    height: 100vh;
-    background-size: cover;
-}
-
-.tour{
-    margin-top: 2rem;
-}
-
 .tour-row{
         padding-bottom: 2rem;
     }
@@ -383,33 +288,27 @@ footer div {
 
 /* ADVENTURE STYLES */
 
-#main-section-adventure{
-    background-image: url("https://mtsobek.imgix.net/2022/06/MTSobek-Rafting-Hero-100.jpg?auto=compress&fm=pjpg&ixlib=php-3.3.1");
-    height: 100vh;
-    background-size: cover;
+.tour-type{
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-decoration: underline;
 }
 
-.adventure-header {
-    background-image: url("https://www.experiencealula.com/getmedia/5ff46732-823b-40f4-b721-4f25ee6283e4/Hot_Air_Balloon_1283x781");
+.blog-header {
+    background-image: url("images/blog-header-img-min.jpg");
     height: 50%;
     background-size: cover;
-    background-position-y: 52%;
+    background-position-y: 45%;
     position: relative;
     padding: 0 5%;
 
 }
 
-.adventure-header-title {
+.blog-header-title {
     font-weight: 800;
     font-size: 4rem;
     color: #F9F5F6;
     position: absolute;
     bottom: 30px;
 
-}
-
-.tour-type{
-    font-size: 22px;
-    margin-bottom: 15px;
-    text-decoration: underline;
 }
