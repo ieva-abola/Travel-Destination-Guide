@@ -37,7 +37,7 @@
 
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="index.html">
-                    <img src="pics/logo.png" alt="logo-img" height="128">
+                    <img src="images/logo-min.png" alt="logo-img" height="128">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -60,11 +60,39 @@
                             <a class="nav-link" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact us</a>
+                            <a class="nav-link" href="#footer-section">Contact us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn blog-btn" href="#">Log in</a>
+                            <a class="nav-link btn blog-btn" href="#" role="button" data-bs-toggle="modal" data-bs-target="#modalSignin">Log in</a>
                         </li>
+
+                        <div class="modal modal-sheet bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalSignin">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content rounded-4 shadow">
+                                <div class="modal-header p-5 pb-4 border-bottom-0">
+                                  <h1 class="fw-bold mb-0 fs-2">Log in</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                          
+                                <div class="modal-body p-5 pt-0">
+                                  <form class="">
+                                    <div class="form-floating mb-3">
+                                      <input type="email" class="form-control rounded-3" id="floatingInput" placeholder="name@example.com">
+                                      <label for="floatingInput">Email address</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                      <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                                      <label for="floatingPassword">Password</label>
+                                    </div>
+                                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Log In</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+
                     </ul>
                 </div>
             </nav>
@@ -135,7 +163,7 @@
                 <div class="col blog-section-post">
                     <a href="blog.html">
                         <div class="blog-photo-div">
-                            <img src="pics/norway.jpg" alt="northern-light-img">
+                            <img src="images/norway-min.jpg" alt="northern-light-img">
                         </div>
                         <h4 class="blog-section-text">Northern Lights Odyssey: Witnessing Nature's Spectacular Show in Norway</h4>
                     </a>    
@@ -144,7 +172,7 @@
                 <div class="col blog-section-post">
                     <a href="blog.html">
                         <div class="blog-photo-div">
-                        <img src="pics/blog2-img.jpg" alt="travel-planing-img">
+                        <img src="images/blog2-img-min.jpg" alt="travel-planing-img">
                     </div>
                         <h4 class="blog-section-text">Travel Hacks: 10 Tips for Packing Light and Smart</h4>
                     </a>    
@@ -153,7 +181,7 @@
                 <div class="col blog-section-post">
                     <a href="blog.html">
                     <div class="blog-photo-div">
-                        <img src="pics/paris.jpg" alt="eiffel-tower-img">
+                        <img src="images/paris-min.jpg" alt="eiffel-tower-img">
                     </div>
                         <h4 class="blog-section-text">Paris Unveiled: A Journey through the City of Lights</h4>
                     </a>
@@ -162,7 +190,7 @@
                 <div class="col blog-section-post">
                     <a href="blog.html">
                         <div class="blog-photo-div">
-                        <img src="pics/plane.jpg" alt="plane-img">
+                        <img src="images/plane-min.jpg" alt="plane-img">
                     </div>
                         <h4 class="blog-section-text">How to Score the Best Flight Deals: Insider Tips and Tricks</h4>
                     </a>
@@ -190,7 +218,7 @@
 
 
     <!-- FOOTER SECTION WITH CONTACTS -->
-
+<section id="footer-section">
     <footer>
         <i class="fab fa-facebook-square fa-lg"></i>
         <i class="fab fa-instagram-square fa-lg"></i>
@@ -200,6 +228,7 @@
         <div>Phone No: +370 000 0000</div>
         <div class="copyright">&#xa9; 2023 Designed and built with passion by Ieva and Vaida</div>
     </footer>
+</section>
 </body>
 
 </html>
