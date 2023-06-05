@@ -255,30 +255,30 @@ footer div {
 }
 
 .container-fluid.adventure-header {
-    background-image: url("https://images.pexels.com/photos/910307/pexels-photo-910307.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-image: url("https://images.pexels.com/photos/4669603/pexels-photo-4669603.jpeg?auto=compress&cs=tinysrgb&w=1600");
     height: 470px !important;
     background-size: cover;
-    background-position-y: 20%;
+    background-position-y: 35%;
     position: relative;
     padding: 0 5%;
 
 }
 
 .container-fluid.leisure-header {
-    background-image: url("https://images.pexels.com/photos/3019893/pexels-photo-3019893.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-image: url("https://images.pexels.com/photos/14178191/pexels-photo-14178191.jpeg?auto=compress&cs=tinysrgb&w=1600");
     height: 470px !important;
     background-size: cover;
-    background-position-y: 20%;
+    background-position-y: 55%;
     position: relative;
     padding: 0 5%;
 
 }
 
 .container-fluid.sightseeing-header {
-    background-image: url("https://images.pexels.com/photos/7929677/pexels-photo-7929677.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    background-image: url("https://images.pexels.com/photos/3019893/pexels-photo-3019893.jpeg?auto=compress&cs=tinysrgb&w=1600");
     height: 470px !important;
     background-size: cover;
-    background-position-y: 30%;
+    background-position-y: 20%;
     position: relative;
     padding: 0 5%;
 
@@ -426,5 +426,34 @@ font-size: 4rem;
 color: #F9F5F6;
 position: absolute;
 bottom: 30px;
+}
 
+/* BLOG SECTION */
+
+#blog-section {
+
+    background-color: #F6F1E9;
+    padding: 5%;
+}
+
+.blog-section-title {
+    padding-bottom: 3%;
+}
+
+.blog-section-post {
+    opacity: 0.85;
+}
+
+.blog-section-post:hover {
+    opacity: 1;
+}
+
+.blog-section-text {
+    text-align: center;
+    padding: 5%;
+    color: black;
+}
+
+.blog-section-post a {
+    text-decoration: none;  
 }
