@@ -4,7 +4,6 @@ body {
     margin: 0;
 }
 
-
 /* MAIN SECTION */
 
 
@@ -24,7 +23,6 @@ body {
     margin: 10% auto;
     text-align: center;
     position: relative;
-
 }
 
 @media (max-width: 991px) {
@@ -34,7 +32,6 @@ body {
         margin: 17% auto;
         width: 60%;
     }
-
 }
 
 @media (max-width: 576px) {
@@ -44,7 +41,6 @@ body {
         margin: 27% auto;
         width: 60%;
     }
-
 }
 
 
@@ -111,7 +107,7 @@ body {
 
 /* MIDDLE SECTION */
 
-.container-fluid.middle-section {
+.middle-section {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.9782084569732937) 83%, rgba(236, 234, 234, 1) 95%);
 
 }
@@ -138,7 +134,7 @@ body {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    opacity: 0.85;
+    opacity: 0.7;
     box-shadow: rgba(50, 50, 93, 0.4) 0px 30px 60px -12px, rgba(0, 0, 0, 0.4) 0px 18px 36px -18px;
 }
 
@@ -149,21 +145,6 @@ body {
     margin-top: -40px;
     height: 85px;
     bottom: 0;
-    opacity: 1;
-}
-
-.image-div img:hover {
-    height: 102%;
-    object-fit: contain;
-    opacity: 1;
-    box-shadow: none;
-}
-
-.image-div img:active {
-    margin: auto;
-    height: 95%;
-    width: 95%;
-    object-fit: contain;
     opacity: 1;
 }
 
@@ -184,37 +165,11 @@ body {
 
 .choose-tour:hover {
     text-shadow: 2px 2px 4px grey;
-    ;
-.container-fluid{
+
+
+.middle-section{
 background: linear-gradient(0deg, rgba(255,255,255,0.9782084569732937) 83%, rgba(236,234,234,1) 95%);
     
-}
-.title-row{
-    padding-bottom: 1vh;
-    padding-top: 10px;
-}
-
-.title{
-    color: rgb(0, 0, 0);
-    font-size: 3rem; 
-    /* text-shadow: 1px 1px 3px rgb(124, 123, 123), 0 0 25px rgb(165, 165, 165), 0 0 3px rgb(165, 165, 165); */
-}
-
-@media only screen and (max-width: 600px){
-    .image-div{
-    height: 380px;
-    background-color: rgb(255, 255, 255);
-}
-}
-
-
-.image-div img{
-    display: block;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    opacity: 0.85;
-    box-shadow: rgba(50, 50, 93, 0.4) 0px 30px 60px -12px, rgba(0, 0, 0, 0.4) 0px 18px 36px -18px;
 }
 
 .image-div p{
@@ -263,73 +218,6 @@ text-shadow: 2px 2px 4px grey;
 color: #333333;
 }
 
-.image-div img:hover{
-    height: 102%;
-    object-fit: contain;
-    opacity: 1;
-    box-shadow: none;
-}
-
-.image-div img:active{
-    margin: auto;
-    height: 95%;
-    width: 95%;
-    object-fit: contain;
-    opacity: 1;
-}
-
-.choose{
-    color: #333333;
-    font-size: 22px;
-    margin-top: 70px;
-    font-weight: 600;
-    text-align: center;
-}
-
-.choose-tour{
-    text-decoration: none;
-    color: #333333;
-    font-style: italic;
-}
-
-.choose-tour:hover{
-text-shadow: 2px 2px 4px grey;;
-
-}
-
-
-
-/* BLOG SECTION */
-
-#blog-section {
-
-    background-color: #F6F1E9;
-    padding: 5%;
-}
-
-.blog-section-title {
-    padding-bottom: 3%;
-}
-
-.blog-section-post {
-    opacity: 0.85;
-}
-
-.blog-section-post:hover {
-    opacity: 1;
-}
-
-.blog-section-text {
-    text-align: center;
-    padding: 5%;
-    color: black;
-}
-
-.blog-section-post a {
-    text-decoration: none;
-    
-}
-
 
 
 
@@ -361,6 +249,36 @@ footer div {
     height: 50%;
     background-size: cover;
     background-position-y: 45%;
+    position: relative;
+    padding: 0 5%;
+
+}
+
+.container-fluid.adventure-header {
+    background-image: url("https://images.pexels.com/photos/4669603/pexels-photo-4669603.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    height: 470px !important;
+    background-size: cover;
+    background-position-y: 35%;
+    position: relative;
+    padding: 0 5%;
+
+}
+
+.container-fluid.leisure-header {
+    background-image: url("https://images.pexels.com/photos/14178191/pexels-photo-14178191.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    height: 470px !important;
+    background-size: cover;
+    background-position-y: 55%;
+    position: relative;
+    padding: 0 5%;
+
+}
+
+.container-fluid.sightseeing-header {
+    background-image: url("https://images.pexels.com/photos/3019893/pexels-photo-3019893.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    height: 470px !important;
+    background-size: cover;
+    background-position-y: 20%;
     position: relative;
     padding: 0 5%;
 
@@ -425,4 +343,117 @@ footer div {
     background-color: rgba(0, 0, 0, 0.3);
     color: white;
     margin-top: 3%;
+}
+
+/* SIGHTSEING STYLES */
+.tour{
+padding-top: 5%;
+}
+
+.tour-row{
+    padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px){
+.tour-collapse{
+padding-bottom: 100px;
+height: 480px;
+}
+}
+
+.tour-collapse img{
+display: block;
+margin: auto;
+height: 100%;
+width: 100%;
+object-fit: contain;
+opacity: 0.85;
+box-shadow: rgba(50, 50, 93, 0.4) 0px 30px 60px -12px, rgba(0, 0, 0, 0.4) 0px 18px 36px -18px;
+}
+
+.tour-collapse p{
+text-align: center;
+font-size: 30px;
+font-family: 'Caveat', cursive;
+bottom: 0;
+opacity: 1;
+}
+
+.tour-collapse img:hover{
+height: 102%;
+object-fit: contain;
+opacity: 1;
+box-shadow: none;
+}
+
+.tour-collapse img:active{
+margin: auto;
+height: 95%;
+width: 95%;
+object-fit: contain;
+opacity: 1;
+}
+
+.row.tour-row.last{
+padding-bottom: 0;
+}
+
+.card-body{
+text-align: justify;
+}
+
+/* ADVENTURE STYLES */
+
+.tour-type{
+font-size: 22px;
+margin-bottom: 15px;
+text-decoration: underline;
+}
+
+.adventure-header {
+background-image: url("images/blog-header-img-min.jpg");
+height: 50% !important;
+background-size: cover;
+background-position-y: 45%;
+position: relative;
+padding: 0 5%;
+
+}
+
+.blog-header-title {
+font-weight: 800;
+font-size: 4rem;
+color: #F9F5F6;
+position: absolute;
+bottom: 30px;
+}
+
+/* BLOG SECTION */
+
+#blog-section {
+
+    background-color: #F6F1E9;
+    padding: 5%;
+}
+
+.blog-section-title {
+    padding-bottom: 3%;
+}
+
+.blog-section-post {
+    opacity: 0.85;
+}
+
+.blog-section-post:hover {
+    opacity: 1;
+}
+
+.blog-section-text {
+    text-align: center;
+    padding: 5%;
+    color: black;
+}
+
+.blog-section-post a {
+    text-decoration: none;  
 }
