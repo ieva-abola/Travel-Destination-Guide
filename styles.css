@@ -1,18 +1,368 @@
 /* BODY */
-body {
-background-color: #F9FBE7;
-}
 
+body {
+  margin: 0;
+}
 
 /* MAIN SECTION */
 
+#main-section {
+  background-image: url("images/background-img-min.jpg");
+  height: 100vh;
+  background-size: cover;
+  padding: 0 5%;
+}
 
+.main-section-title {
+  font-weight: 800;
+  font-size: 4rem;
+  color: #f9f5f6;
+  width: 50%;
+  margin: 10% auto;
+  text-align: center;
+  position: relative;
+}
 
+@media (max-width: 991px) {
+  .main-section-title {
+    font-size: 3rem;
+    margin: 17% auto;
+    width: 60%;
+  }
+}
 
+@media (max-width: 576px) {
+  .main-section-title {
+    font-size: 2.5rem;
+    margin: 27% auto;
+    width: 60%;
+  }
+}
+
+/* Navigation bar */
+
+.nav-item {
+  padding: 0 30px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #f9f5f6;
+}
+
+@media (max-width: 991px) {
+  .navbar-nav {
+    position: absolute;
+    top: 7.5rem;
+    right: 0;
+    background-color: rgb(199, 186, 184, 0.9);
+    border: rgba(0, 0, 0, 0.3) solid 2px;
+    border-radius: 10%;
+    z-index: 1;
+    padding: 15px 0;
+  }
+
+  .nav-link {
+    display: inline-block;
+    padding: 10px;
+    margin: 0 20px;
+  }
+
+  .nav-item {
+    padding: 0 15px;
+  }
+}
 
 /* MIDDLE SECTION */
 
+#middle-section {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.9782084569732937) 83%,
+    rgba(236, 234, 234, 1) 95%
+  );
+}
 
+.title-row {
+  padding: 5% 3% 2% 5%;
+}
 
+@media only screen and (max-width: 600px) {
+  .image-div {
+    height: 380px;
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.image-div img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  opacity: 0.7;
+  box-shadow: rgba(50, 50, 93, 0.4) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.4) 0px 18px 36px -18px;
+}
+
+.image-div p {
+  font-family: "Caveat", cursive;
+  text-align: center;
+  font-size: 30px;
+  margin-top: -40px;
+  height: 85px;
+  bottom: 0;
+  opacity: 1;
+}
+
+.image-div img:hover {
+  height: 102%;
+  object-fit: contain;
+  opacity: 1;
+  box-shadow: none;
+}
+
+.image-div img:active {
+  margin: auto;
+  height: 95%;
+  width: 95%;
+  object-fit: contain;
+  opacity: 1;
+}
+
+.choose {
+  color: #333333;
+  font-size: 22px;
+  margin-top: 70px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.choose-tour {
+  text-decoration: none;
+  color: #333333;
+  font-style: italic;
+}
+
+.choose-tour:hover {
+  text-shadow: 2px 2px 4px grey;
+  color: #333333;
+}
+
+/* BLOG SECTION */
+
+#blog-section {
+    background-color: #f6f1e9;
+    padding: 5%;
+  }
+  
+  .blog-section-title {
+    padding-bottom: 3%;
+  }
+  
+  .blog-section-post {
+    opacity: 0.85;
+  }
+  
+  .blog-section-post:hover {
+    opacity: 1;
+  }
+  
+  .blog-section-text {
+    text-align: center;
+    padding: 5%;
+    color: black;
+  }
+  
+  .blog-section-post a {
+    text-decoration: none;
+  }
 
 /* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 2%;
+  background-color: lightgray;
+}
+
+footer div {
+  padding-top: 2px;
+}
+
+.copyright {
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+/* SIGHTSEEING PAGE */
+
+.sightseeing-header {
+    background-image: url("https://images.pexels.com/photos/3019893/pexels-photo-3019893.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    height: 470px !important;
+    background-size: cover;
+    background-position-y: 20%;
+    position: relative;
+    padding: 0 5%;
+  }
+
+  .tour {
+    padding-top: 5%;
+  }
+  
+  .tour-row {
+    padding-bottom: 2rem;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .tour-collapse {
+      padding-bottom: 100px;
+      height: 480px;
+    }
+  }
+  
+  .tour-collapse img {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    opacity: 0.85;
+    box-shadow: rgba(50, 50, 93, 0.4) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.4) 0px 18px 36px -18px;
+  }
+  
+  .tour-collapse p {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+    bottom: 0;
+    opacity: 1;
+  }
+  
+  .tour-collapse img:hover {
+    height: 102%;
+    object-fit: contain;
+    opacity: 1;
+    box-shadow: none;
+  }
+  
+  .tour-collapse img:active {
+    margin: auto;
+    height: 95%;
+    width: 95%;
+    object-fit: contain;
+    opacity: 1;
+  }
+  
+  .row.tour-row.last {
+    padding-bottom: 0;
+  }
+  
+  .card-body {
+    text-align: justify;
+  }
+
+
+  /* ADVENTURE PAGE */
+
+  .adventure-header {
+    background-image: url("https://images.pexels.com/photos/4669603/pexels-photo-4669603.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    height: 470px !important;
+    background-size: cover;
+    background-position-y: 35%;
+    position: relative;
+    padding: 0 5%;
+  }
+
+  .tour-type {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+  }
+
+  /* LEISURE PAGE */
+
+  .container-fluid.leisure-header {
+    background-image: url("https://images.pexels.com/photos/14178191/pexels-photo-14178191.jpeg?auto=compress&cs=tinysrgb&w=1600");
+    height: 470px !important;
+    background-size: cover;
+    background-position-y: 55%;
+    position: relative;
+    padding: 0 5%;
+  }
+  
+
+/* BLOG PAGE */
+
+.blog-header {
+  background-image: url("images/blog-header-img-min.jpg");
+  height: 50%;
+  background-size: cover;
+  background-position-y: 45%;
+  position: relative;
+  padding: 0 5%;
+}
+
+
+.blog-header-title {
+  font-weight: 800;
+  font-size: 4rem;
+  color: #f9f5f6;
+  position: absolute;
+  bottom: 30px;
+}
+
+.blog-posts-div {
+  padding: 5%;
+  background-color: #f6f1e9;
+}
+
+.blog-row {
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.blog-post {
+  background-color: white;
+}
+
+.blog-post.lg {
+  flex: 2;
+}
+
+.blog-post.sm {
+  flex: 1;
+}
+
+.blog-photo-div {
+  height: 300px;
+}
+
+.blog-photo-div > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.blog-text {
+  padding: 30px;
+}
+
+.blog-text hr {
+  border-style: solid;
+  border-color: black;
+  border-width: 2px 0 0 0;
+  width: 30%;
+}
+
+.blog-btn {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  margin-top: 3%;
+}
+
+
+
+

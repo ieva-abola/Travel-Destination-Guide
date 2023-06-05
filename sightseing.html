@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sightseeing tours</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+
+
+    <div class="container-fluid sightseeing-header">
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo-min.png" alt="logo-img" height="128">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                            aria-expanded="false">Destinations</a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="sightseing.html">Sightseeing tours</a></li>
+                            <li><a class="dropdown-item" href="adventure.html">Adventure tours</a></li>
+                            <li><a class="dropdown-item" href="leisure.html">Leisure tours</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer-section">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn blog-btn" href="#" role="button" data-bs-toggle="modal"
+                            data-bs-target="#modalSignin">Log in</a>
+                    </li>
+
+                    <div class="modal modal-sheet bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog"
+                        id="modalSignin">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content rounded-4 shadow">
+                                <div class="modal-header p-5 pb-4 border-bottom-0">
+                                    <h1 class="fw-bold mb-0 fs-2">Log in</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+
+                                <div class="modal-body p-5 pt-0">
+                                    <form class="">
+                                        <div class="form-floating mb-3">
+                                            <input type="email" class="form-control rounded-3" id="floatingInput"
+                                                placeholder="name@example.com">
+                                            <label for="floatingInput">Email address</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="password" class="form-control rounded-3" id="floatingPassword"
+                                                placeholder="Password">
+                                            <label for="floatingPassword">Password</label>
+                                        </div>
+                                        <button class="w-100 mb-2 btn btn-lg rounded-3 blog-btn" type="submit">Log
+                                            In</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </ul>
+            </div>
+        </nav>
+        <h1 class="blog-header-title">Sightseeing tour</h1>
+    </div>
+
+    <!-- MIDDLE PART -->
+
+    <div class="container-fluid tour">
+
+        <div class=" row tour-row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://media.istockphoto.com/id/1057285166/photo/rmantic-couple-in-paris-kissing-near-eiffel-towe.jpg?s=612x612&w=0&k=20&c=rCfNXdjldAGtj_ZcjQEWMS_UT3fSNMrcQ0WT1pMfn-k="
+                            alt="paris" class="img-responsive"></a>
+                    <p>Romantic Paris</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                    <div class="card card-body">
+                        How do you spend only three days in Paris and feel like you’ve seen enough of the city to go
+                        home and tell your friends ‘I’ve been to Paris‘? The trouble is, the city of lights is just so
+                        vast and there is so much to explore! However, if you plan it right, then 72 hours in Paris can
+                        be just the right amount of time. And besides, even the briefest trip to the city is magical…
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://tourismmedia.italia.it/is/image/mitur/20220127150143-colosseo-roma-lazio-shutterstock-756032350-1?wid=1600&hei=900&fit=constrain,1&fmt=webp"
+                            alt="rome" class="img-responsive"></a>
+                    <p>Hystorical Rome</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                    <div class="card card-body">
+                        Visit Rome and its marvelous monuments. Discover all the Works of Art hosted at the Vatican
+                        Museums or let yourself be guided on an interesting tour of the majestic Colosseum! But it's not
+                        over yet... Don't miss the chance to visit the ancient Roman Ruins! What are you waiting for?!
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://i.natgeofe.com/n/8c43aef4-bfd8-4d0b-9910-d5cc5a1daf01/acropolis-athens-greece-lead.jpg"
+                            alt="athens" class="img-responsive"></a>
+                    <p>Ancient Athens</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                    <div class="card card-body">
+                        Athens is a great city with a rich history. So there is a lot to see and visit. You may already
+                        be familiar with the most famous sights such as the Acropolis and the National Archaeological
+                        Museum, but there is much more to experience in Athens Greece.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://www.ourescapeclause.com/wp-content/uploads/2022/09/Portugal_AzenhasDoMar-13-768x512.jpg"
+                            alt="lisbon" class="img-responsive"></a>
+                    <p>Cosy Lisbon</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample4">
+                    <div class="card card-body">
+                        Spread across seven hills and straddling the Tagus River, Lisbon is home to an
+                        attention-grabbing Moorish castle, whimsical Manueline architecture nodding to the Age of
+                        Discoveries, and vintage trams rattling from one landmark, gallery and hilltop lookout to the
+                        next. If you want to stay longer than the weekend, then you'll also have time for day trips to
+                        the castles and palaces of Sintra, or to the futuristic Parque das Nações district, where you
+                        can discover one of Europe's most spectacular aquariums.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" row tour-row">
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://www.state.gov/wp-content/uploads/2018/11/Denmark-2113x1406.jpg"
+                            alt="copenhagen" class="img-responsive"></a>
+                    <p>Windy Copenhagen</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample5">
+                    <div class="card card-body">
+                        Planning out the perfect Copenhagen itinerary is truly a joy. The capital of Denmark is a
+                        popular city-break destination for those looking to spend a couple of days exploring this lovely
+                        and vibrant Scandinavian city. While there are a seemingly infinite amount of things to do in
+                        the Danish capital that visitors could easily fill more than a week with activities and day
+                        trips, spending 2 days in Copenhagen is an excellent way to get a great feel for the city and
+                        see all of the main sites
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample6" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://img.delicious.com.au/mKdtsu1d/del/2018/08/explore-norwegian-design-87094-2.jpg"
+                            alt="geiranger" class="img-responsive"></a>
+                    <p>Oslo fjords</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample6">
+                    <div class="card card-body">
+                        Oslo is a vibrant city with a variety of activities and sights that you can experience either in
+                        the city, in the countryside or by the fjord. Capital of Norway also has a wide selection of
+                        exciting restaurants, shops and attractions. The close proximity to the Oslofjord makes Oslo a
+                        perfect starting point for island hopping and fjord sightseeing.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample7" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://cdn.getyourguide.com/img/location/531f1a551a844.jpeg/75.jpg" alt="stokholm"
+                            class="img-responsive"></a>
+                    <p>Islands of Stockholm</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample7">
+                    <div class="card card-body">
+                        Known for its enchanting beauty and culture, Stockholm is a city that is sure to impress. With
+                        its world-class museums and thought-provoking galleries, there are countless things to do in
+                        Stockholm. From exploring the city's beautiful parks to taking a scenic cruise along the Baltic
+                        Sea, there is plenty to keep visitors busy.
+                        Stockholm is a city that is full of contradictions. It's a city that is full of history, but is
+                        also modern and hip. You'll find plenty of fancy restaurants and bars, but it's also a city of
+                        culture. Whether you're a music lover or a history buff, Stockholm has something for everyone.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample8" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://www.guliveriokeliones.lt/files/2015-01/3277_large.jpg" alt="helsinki"
+                            class="img-responsive"></a>
+                    <p>Architecture of Helsinki</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample8">
+                    <div class="card card-body">
+                        Helsinki, the beautiful capital of Finland, has plenty to see and do. It is a city break with a
+                        difference and one you know that not everyone has been on! It's quirky, original, and completely
+                        immersive. You will have to be living under a rock to not know that Helsinki is having a serious
+                        moment – and for good reason. It's gloriously eclectic, easily navigable, and both super-cool
+                        and welcoming at the same time.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class=" row tour-row last">
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample9" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://globaltravelescapades.com/wp-content/uploads/2022/12/hori-2.0-28-2.jpg"
+                            alt="zagreb" class="img-responsive"></a>
+                    <p>Zagreb and Croatia's Islands</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample9">
+                    <div class="card card-body">
+                        With a history that dates back to 1094, the city is full of historic landmarks, interesting
+                        sights, museums, hotels and restaurants which are among the best in the country.
+
+                        Discover staggering architectural and natural beauty, many of which can be enjoyed for free.
+                        Zagreb is filled with museums and captivating architecture. You get to enjoy everyday cafe
+                        culture, lush greenery and a host of street festivals.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample10" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://thenomadvisor.com/wp-content/uploads/2019/04/wheretostayinvienna.jpg"
+                            alt="vienna" class="img-responsive"></a>
+                    <p>Experience Vienna</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample10">
+                    <div class="card card-body">
+                        Everyone has their own mental image of Vienna, and there are not enough adjectives to describe
+                        every facet of the city. The historic centre of Vienna is, in fact, a UNESCO World Heritage Site
+                        itself - a true reflection of how utterly breath-taking this city is.
+
+                        Known for its dazzling palaces, imperial artwork and rich musical culture, there is so much to
+                        discover here. While you travel from sights to museums, don't forget to stop, look around and
+                        take in the unique architecture.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample11" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://tzassets.bestwestern.com/wp-content/uploads/2022/10/24211350/GettyImages-1155086988-1536x1025.jpg"
+                            alt="Bern" class="img-responsive"></a>
+                    <p>Playful Bern</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample11">
+                    <div class="card card-body">
+                        Beautiful Bern is quite unike any other city in Switzerland. From its covered arcades to its
+                        prestigious title as a UNESCO World Heritage Site, it is uniquely charming and very relaxed.
+                        Bern is rather small and has a totally different feel than all the major capital cities in
+                        Europe.
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="tour-collapse">
+                    <a class="collapse-img" data-bs-toggle="collapse" href="#multiCollapseExample12" role="button"
+                        aria-expanded="false" aria-controls="multiCollapseExample1"><img class="sightseing-collapse-img"
+                            src="https://www.makalius.lt/wp-content/gallery/praha-paid-1/praha-senamiestis-cekija.jpg?v=b4743a0af32b0682"
+                            alt="praha" class="img-responsive"></a>
+                    <p>Golden Praha</p>
+                </div>
+                <div class="collapse multi-collapse" id="multiCollapseExample12">
+                    <div class="card card-body">
+                        Prague is the European capital of astrologers and alchemists in search of the legendary
+                        'philosopher's stone'. The city is famous for its architecture, bohemian atmosphere and Art
+                        Nouveau posters by Alphonse Mucha.
+                        Prague, the capital of the Czech Republic, is a city where you will find buildings representing
+                        most western architectural styles. From Romanesque to modern, and including such rarities as
+                        Cubism in architecture. It is a popular place for weekend trips from neighbouring countries as
+                        well as the rest of Europe for lovers of interesting architecture, beautiful views and evening
+                        feasts with fresh Pilsener in one of the numerous traditional Czech beer bars.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="choose">
+        <b> Choose your destination:</b> <a class="choose-tour" href="leisure.html">leisure trips</a>, <a class="choose-tour"
+            href="adventure.html">adventure tours</a>.
+    </div>
+
+    <!-- FOOTER SECTION WITH CONTACTS -->
+
+    <section id="footer-section">
+        <footer>
+            <i class="fab fa-facebook-square fa-lg"></i>
+            <i class="fab fa-instagram-square fa-lg"></i>
+            <i class="fab fa-twitter-square fa-lg"></i>
+            <div>Email: SGT-tours@sgt.com</div>
+            <div>Address: 742 Evergreen Terrace, Springfield</div>
+            <div>Phone No: +370 000 0000</div>
+            <div class="copyright">&#xa9; 2023 Designed and built with passion by Ieva and Vaida</div>
+        </footer>
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
